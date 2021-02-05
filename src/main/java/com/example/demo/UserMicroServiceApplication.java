@@ -15,6 +15,7 @@ public class UserMicroServiceApplication {
 	@Bean
 	public RestTemplate getRestTemplate()
 	{
+		System.out.println("Pavan");
 		return new RestTemplate();
 	}
 }
